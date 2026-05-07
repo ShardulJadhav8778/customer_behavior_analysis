@@ -84,3 +84,65 @@ The dataset contains customer shopping details such as:
 ### 1. Install required packages
 ```bash
 pip install pandas jupyter sqlalchemy pymysql
+
+jupyter notebook
+
+3. Run the notebook
+
+Open Customer_Shopping_Behavior_Analysis.ipynb and run all cells step by step.
+
+MySQL Setup
+
+Before running the notebook, make sure:
+
+MySQL is installed
+A database is created
+Connection details in the notebook are correct
+
+Update the MySQL connection values in the notebook before running it.
+
+Project Output
+
+After running the project, you will get:
+
+Cleaned customer shopping dataset
+New columns like age_group and purchase_frequency_days
+Data stored in MySQL
+Ready-to-use data for SQL queries
+Power BI dashboard-ready dataset
+
+Folder Structure
+
+customer_behavior_analysis/
+│
+├── customer_shopping_behavior.csv
+├── Customer_Shopping_Behavior_Analysis.ipynb
+├── customer_behaviour_sql_queries.sql
+├── customer_behaviour_dashboard.pbix
+└── README.md
+
+
+
+Future Scope
+
+
+Add more visual insights
+
+
+Build an interactive Power BI dashboard
+
+
+Perform customer segmentation
+
+
+Predict customer buying behavior
+
+
+Compare sales across categories and seasons
+
+
+Improve business decisions using advanced analytics
+
+
+Conclusion
+This project helps understand customer shopping behavior in a simple and useful way. It gives cleaned data, analysis support, SQL queries, and a dashboard file for better business insights.
